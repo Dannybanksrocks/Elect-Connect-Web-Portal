@@ -1,0 +1,14 @@
+.custom-section {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-section-inner {
+  width: 1240px;
+}
+
+@media screen and (max-width: 1240px) {
+  .custom-section-inner {
+    width: 100%;
+  }
+}

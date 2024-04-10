@@ -1,0 +1,35 @@
+.drop-down {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .drop-down > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .drop-down-selected {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .drop-down-selected-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+  }
+
+  .dropdown-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dropdown-menu-item-bullet {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }

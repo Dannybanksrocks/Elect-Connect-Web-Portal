@@ -1,0 +1,23 @@
+nav {
+  padding: 15px 0 0 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    padding: 0;
+  }
+
+  .nav-title {
+    font-size: small;
+  }
+}

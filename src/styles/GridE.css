@@ -1,0 +1,43 @@
+.new-results > div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.new-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-results:hover .new-result:not(:hover) {
+  opacity: 0.5;
+}
+
+.new-result-start {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-result-start > div:nth-child(2) {
+  width: 70%;
+}
+
+.new-result-bullet {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.new-result-end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-result-percent {
+  font-size: x-small;
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px 5px;
+  font-weight: 700;
+}

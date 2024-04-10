@@ -1,0 +1,14 @@
+.menu-item {
+  padding: 5px;
+  cursor: pointer;
+  font-size: smaller;
+  font-weight: 500;
+}
+
+.menu-item:hover {
+  background: #efefef;
+}
+
+.menu-item-selected {
+  background: #caeff87a;
+}

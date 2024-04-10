@@ -1,0 +1,60 @@
+.grid-a-chart-container {
+  height: 100%;
+}
+
+.grid-a-chart {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.grid-a-chart-inner {
+  position: relative;
+}
+
+.grid-a-chart-inner-meta {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.grid-a-chart-inner-meta > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.grid-a-meta {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-a-meta-title {
+  color: gray;
+  text-align: center;
+}
+
+.grid-a-meta-extras {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.grid-a-meta-extra {
+  display: flex;
+  text-align: center;
+  flex-direction: column;  
+}
+
+.grid-a-meta-inner > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.grid-a-meta-extra-label {
+  color: gray;
+}
+
+.grid-a-meta-extra-value {
+  font-weight: 800;
+  font-size: x-large;
+}

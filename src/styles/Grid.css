@@ -1,0 +1,128 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.national-grid {
+  grid-template-areas:
+    "a a b b b b "
+    "c c d d e e "
+    "f f g g i i "
+    "h h h h j j ";
+}
+
+.national-grid .grid-a {
+  grid-area: a;
+}
+
+.national-grid .grid-b {
+  grid-area: b;
+}
+
+.national-grid .grid-c {
+  grid-area: c;
+}
+
+.national-grid .grid-d {
+  grid-area: d;
+}
+
+.national-grid .grid-e {
+  grid-area: e;
+}
+
+.national-grid .grid-f {
+  grid-area: f;
+}
+
+.national-grid .grid-g {
+  grid-area: g;
+}
+
+.national-grid .grid-h {
+  grid-area: h;
+}
+
+.national-grid .grid-i {
+  grid-area: i;
+}
+
+.national-grid .grid-j {
+  grid-area: j;
+}
+
+.county-grid {
+  grid-template-areas:
+    "a a b b b b "
+    "c c d d e e "
+    "g g z z z z ";
+}
+
+.county-grid .grid-a {
+  grid-area: a;
+}
+
+.county-grid .grid-b {
+  grid-area: b;
+}
+
+.county-grid .grid-c {
+  grid-area: c;
+}
+
+.county-grid .grid-d {
+  grid-area: d;
+}
+
+.county-grid .grid-e {
+  grid-area: e;
+}
+
+.county-grid .grid-g {
+  grid-area: g;
+}
+
+.district-grid {
+  grid-template-areas:
+    "a a b b b b "
+    "c c d d e e ";
+}
+
+.district-grid .grid-a {
+  grid-area: a;
+}
+
+.district-grid .grid-b {
+  grid-area: b;
+}
+
+.district-grid .grid-c {
+  grid-area: c;
+}
+
+.district-grid .grid-d {
+  grid-area: d;
+}
+
+.district-grid .grid-e {
+  grid-area: e;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+      "f"
+      "g"
+      "h"
+      "i"
+      "j" !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

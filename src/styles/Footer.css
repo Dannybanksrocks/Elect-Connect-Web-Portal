@@ -1,0 +1,16 @@
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-weight: 700;
+  font-size: smaller;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    padding: 10px;
+  }
+}

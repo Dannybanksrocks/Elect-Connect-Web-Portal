@@ -1,0 +1,67 @@
+.otp-inner > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.otp-header > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.otp-title-helper {
+  color: gray;
+  font-size: small;
+}
+
+.otp-input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.otp-input {
+  border: 2px solid #efefef !important;
+  outline: none;
+  background: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: large;
+  width: 50px !important;
+}
+
+.otp-input-error {
+  border: 2px solid red !important;
+  outline: none;
+  background: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: large;
+  width: 50px !important;
+}
+
+.otp-input-error:not(:last-child) {
+  margin-right: 5px;
+}
+
+.otp-input:not(:last-child) {
+  margin-right: 5px;
+}
+
+.otp-form > div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.otp-input-error-text {
+  font-size: small;
+  color: red;
+  font-weight: 600;
+}
+
+.otp-input-loading {
+  font-weight: 500;
+  font-size: smaller;
+  color: gray;
+}
+
+@media screen and (max-width: 1024px) {
+  .otp {
+    padding: 10px;
+  }
+}

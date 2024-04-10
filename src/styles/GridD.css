@@ -1,0 +1,33 @@
+.precinct-big-wins {
+  height: 100%;
+}
+
+.precinct-big-wins > div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.precinct-big-wins:hover .precinct-big-win:not(:hover) {
+  opacity: 0.5;
+}
+
+.precinct-big-win {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.precinct-big-win-start {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.precinct-big-win-start > div:nth-child(2) {
+  width: 80%;
+}
+
+.precinct-big-win-bullet {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}

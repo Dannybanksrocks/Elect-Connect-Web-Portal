@@ -1,0 +1,43 @@
+.precinct-table-column {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.precinct-table-column-bullet {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.precinct-table-column-title {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.confirmation-status {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: grid;
+  font-size: smaller;
+  font-weight: 600;
+  text-align: center;
+}
+
+.supervisor-name-row {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.supervisor-name-row-text {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

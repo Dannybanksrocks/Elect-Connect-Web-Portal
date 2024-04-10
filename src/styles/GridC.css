@@ -1,0 +1,88 @@
+.grid-c-chart-container {
+  height: 100%;
+}
+
+.grid-c-chart-container > div:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.grid-c-chart {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.grid-c-chart-inner {
+  height: 100%;
+  position: relative;
+}
+
+.grid-c-meta {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-c-meta-items > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.grid-c-meta-items {
+  width: 80%;
+}
+
+.grid-c-meta-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-c-meta-item-start {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid-c-meta-item-bullet {
+  padding: 5px;
+  border-radius: 50%;
+  background: #c5c5c5;
+}
+
+.grid-c-meta-item-title {
+  color: gray;
+}
+
+.grid-c-meta-item-value {
+  font-weight: 500;
+}
+
+.grid-c-chart-inner-meta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.grid-c-chart-inner-meta > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.grid-c-chart-inner-meta-value {
+  font-size: x-large;
+}
+
+.grid-c-chart-inner-meta-percentage span {
+  background: rgba(0, 128, 0, 0.1);
+  color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: smaller;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-c-meta-items {
+    width: 100%;
+  }
+}

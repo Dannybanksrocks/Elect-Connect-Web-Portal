@@ -1,0 +1,37 @@
+.grid-b-chart-container {
+  height: 100%;
+}
+
+.grid-b-meta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.grid-b-meta-inner {
+  display: grid;
+  gap: 10px 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-b-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.grid-b-meta-item-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-b-meta {
+    flex-direction: column;
+    gap: 10px;
+    font-size: small;
+  }
+}

@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  election-frontend:
+    image: $FRONTEND_IMAGE
+    ports:
+      - "8020:80"

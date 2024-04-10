@@ -1,0 +1,39 @@
+.grid-item {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-height: 600px;
+}
+
+.grid-children {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.grid-item > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.grid-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.grid-title-text {
+  width: 100%;
+}
+
+.grid-title-text-centered {
+  text-align: center;
+}
+
+.grid-title-helper {
+  color: gray;
+}
